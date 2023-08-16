@@ -1,0 +1,28 @@
+1. To run the code with your own Data, start with section 1, move on to 2 and 3
+
+2. To split the existing data into training and test, and training the model using this data, follow from section 2, move on to 3.
+
+3. To train the model using the existing split Training and Test Data, follow from section 3.
+
+4. To load a pre trained model, and use it on Test Data, follow from section 4.
+
+
+Section 1:
+1. Make sure your Data has its images in different folders based on the True Labels of your images.
+2. Just change the path in line 8 of project_detection.py to your new Data Folder.
+2. Run project_detection.py
+
+Section 2:
+1. Make sure there are new empty folders for Train Set, and Test Set, which will be filled by the command.
+2. Run project_datasplitting.py
+
+Section 3:
+1. Start reading project_recognition.ipynb, and running each command , till the end of the task at hand is, eg testing data accuracy.
+
+
+Section 4:
+1. Go down in project_recognition.ipynb, till we reach the section ,"Loading a saved model to use for testing purposes".
+2. We will see the pkl load command, and we can run that command, to use any pre trained model for our network.
+3. Following that, we can do a point wise test, or a test on the complete Test Data.
+
+
